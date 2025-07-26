@@ -21,7 +21,7 @@ localStorage (for data persistence)
 
 📦 Installation
 # Clone the repository
-git clone 
+git clone https://github.com/anshu-intern/To-Do-App.git
 
 # Navigate into the project directory
 cd Todo_app
