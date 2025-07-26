@@ -1,0 +1,56 @@
+.header{
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.heading{
+    padding: 10px;
+    text-align: center;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.addTask{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.textInput{
+    margin-right: 10px;
+    width:350px;
+    height: 28px;
+    padding: 2px;
+    border-radius: 10px;
+    font-weight: 500;
+    border:2px solid black
+}
+
+.InputButton{
+    height: 38px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0);
+    border-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    cursor: pointer;
+}

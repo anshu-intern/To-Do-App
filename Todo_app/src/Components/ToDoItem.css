@@ -1,0 +1,66 @@
+.list{
+    padding: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.listItem{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 15px;
+}    
+
+.listAction{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Button{
+    margin: auto;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0);
+    border-color: orange;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.done{
+    background-color: rgb(211, 211, 211);
+}
+
+.done p{
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+.done button:nth-child(1){
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.done button:nth-child(2){
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+@media (max-width: 767px){
+    .list{
+        flex-direction: column;
+    }
+}

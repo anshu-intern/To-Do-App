@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-image: url('./assets/bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
